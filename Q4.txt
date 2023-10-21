@@ -1,1 +1,35 @@
-Read about IP address, port, HTTP methods, MAC address
+Q : Read about IP address, port, HTTP methods, MAC address ?
+
+A :
+    IP address  : Internet Protocol Address
+                  A unique numerical identifier for every device connected to a network for communication.
+                  Logical address of our network hardware by which other devices identify it in a network
+                  It servers two main functions. They are Identifing the Host/network & Location of host in the network.
+                  Its essential for proper functioning because it enable device to send & receive data from each other.
+                  2 types of Ip address ae there namely : IPv4(32bit & most widely used; expressed in series of 4 decimal numbers ranging from 0 to 255 separated by dots) & 
+                                                        : IPv6 (128 bit hexadecimal;expressed as a series of hexadecimal numbers separated by colons )
+                  IP address is provided by admin of system or network administrator
+                  ipconfig command can be used to find IP address.
+                  used to identify devices on a network and to route traffic between networks. The IP addresses ensure that the data gets from its original source reaches its final destination and it is also called “end-to-end” delivery of data.
+
+    Mac address : Media Acess Control Addres
+                  Its a unique 12-character alphanumeric attribute that is used to identify individual electronic devices on a network.
+                  First 6 character of alphanumeric representation defines the identify the manufacturer, called the OUI (Organizational Unique Identifier) and the last 6 digits represents Network Interface Controller, which is assigned by the manufacturer. 
+                  Colon-Hexadecimal notation(:) is used by Linux OS and Period-separated Hexadecimal notation(.) is used by Cisco Systems.  
+                  Colon-Hexadecimal notation deifned in (-).
+                  The primary function of MAC addresses is to manage how data is transported from one network node to another on a direct, physical basis – this is also referred to as “hop to hop” delivery.        
+
+                  In gerneral,Mac & Ip  : Layer 2 uses MAC addresses and is responsible for packet delivery from hop to hop.
+                                          Layer 3 uses IP addresses and is responsible for packet delivery from end to end. 
+
+    port        : Identifies a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
+                  Ports are identified for each protocol and It is considered as a communication endpoint.
+                  In otherwords, Port numbers identify a particular application or service on a system.
+                  Ports are represented by 16-bit numbers.
+                  Port numbers are logical interfaces used by communication protocols.
+                  Port number for application is provided by kernel of Operating System.
+                  netstat  command can be used to find Network Statistics Including Available TCP Ports.
+                  80 for HTTP, 123 for NTP, 67 and 68 for DHCP traffic, 22 for SSH etc.
+
+    Http methods: HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
+                  Namely : Mainly used are POST, GET, PUT , PATCH and DELETE. Others are HEAD, OPTIONS, CONNECT

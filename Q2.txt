@@ -1,1 +1,7 @@
-Write a blog about objects and its internal representation in Javascript
+Q : Write a blog about objects and its internal representation in Javascript?
+
+A : Objects are Non-primitive or Reference datatype & case sensitive, allows to store and organize data.
+    Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+    Objects are instances of a class,consists of key value pair. where keys are strings and values can be any datatype
+    These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+    Properties are essentially key-value pairs, and methods are functions associated with the object. When a property is accessed or modified, the JavaScript engine looks up the property name in the object's internal structure to retrieve or update the corresponding value.
